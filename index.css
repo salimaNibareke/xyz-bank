@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  width: 50%;
+  min-height: 25rem;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: #e5e4ff;
+}
+
+.singin-card {
+  width: 35%;
+  min-height: 35rem;
+  background: #e5e4ff;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+}
+
+.singin-card h1 {
+  font-size: 3rem;
+}
+
+.singin-card input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 15px;
+}
+
+.singin-card a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.btn-login{
+    background:#040065;
+    padding:15px;
+    width:100%;
+    border-radius: 15px;
+    color: #e5e4ff;
+
+}
+
+.tab-card{
+    width:20%;
+    padding: 10px;
+    text-align:center;
+    background: #e5e4ff;
+    margin:1px;
+    cursor: pointer;
+}
+.tab-card:hover{
+    background: #d8d7fb;
+    color: black;
+}
+.c-active{
+    background: #9e9bef;
+    color: #e5e4ff;
+}
+.c-active a{
+    color: #e5e4ff;
+}
+
+.tab-card  a{
+    font-size:1.1rem;
+    padding: 10px;
+    text-decoration: none;
+    color:#040065;
+}
+
+.wallet-card{
+    width:100%;
+}
